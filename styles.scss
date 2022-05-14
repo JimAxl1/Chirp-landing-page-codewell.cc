@@ -1,0 +1,583 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+header, main{
+  background-color: rgba(251,248,243,255);
+  padding-bottom: 30px;
+}
+
+h1{
+  color: rgba(40,123,245,255);
+  font-style: italic;
+  font-size: 1.76rem;
+  margin-top: -1px;
+  font-weight: bold;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+#nav_bar > ul > li {
+  cursor: pointer;
+}
+
+#div1{
+  width: 90vw;
+  height: 135vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 30px 15px;
+}
+
+#nav_bar{
+  display: none;
+  width: 100%;
+  margin-top: 15px;
+  padding: 0;
+}
+
+#nav_bar > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 0;
+}
+
+#nav_bar > ul > li {
+  font-size: 1.9rem;
+  font-weight: bold;
+  padding: 20px;
+  margin: 0 10px;
+  background-color: #EFE7DB;
+}
+
+#nav_bar > ul > li:hover {
+  background-color: rgba(29,161,242,255);
+}
+
+#nav_bar > ul > li:nth-child(4):hover {
+  background-color: #EFE7DB;
+  cursor: default;
+}
+
+#close_menu {
+  display: none;
+  font-size: 4.5rem;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  user-select: none;
+}
+
+h2{
+  font-size: 3.32rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#div2{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.p1{
+  font-size: 1.6rem;
+  color: #595959;
+  font-weight: 400;
+  margin-top: -1px;
+  line-height: 1.5;
+}
+
+button{
+  background-color: rgba(29,161,242,255);
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#more_info{
+  color: rgba(31,120,152,255);
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p > b{
+  color: rgba(31,120,152,255);
+}
+
+article{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+.card_features{
+  border: 1px solid rgba(207,207,207,255);
+  border-radius: 5px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+h3{
+  color: black;
+  font-size: 1.6rem;
+}
+
+.card_features > p {
+  font-size: 1.6rem;
+  color: rgba(115,115,115,255);
+}
+
+section{
+  background-color: rgba(215,245,245,255);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  border: 1px solid rgba(215,245,245,255);
+}
+
+.card_tweet{
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_tweet_header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+.name_tweet{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.username_tweet{
+  margin-top: -1px;
+  font-size: 1.28rem;
+  color: rgba(115,115,115,255);
+}
+
+.card_tweet_header > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card_tweet_header > div > p {
+  display: block;
+  margin: 0px 10px;
+}
+
+.card_tweet_footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card_tweet_footer > .text_tweet {
+  margin-left: 5px;
+}
+
+.card_tweet_footer > .date{
+  margin-left: auto;
+}
+
+.text_tweet{
+  font-size: 1.6rem;
+  color: rgba(122,122,122,255);
+  line-height: 1.5;
+}
+
+#price_plan{
+  border: 1px solid white;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+#price_plan > p {
+  font-size: 1.6rem;
+  color: rgba(115,115,115,255);
+}
+
+#card_price{
+  background-color: rgba(251,248,243,255);
+  border: 2px solid rgba(255,195,94,255);
+  border-radius: 8px;
+  padding: 10px 40px 10px 40px;
+  text-align: start;
+  margin-top: 50px;
+}
+
+#card_price > p {
+  font-size: 2.08rem;
+  color: rgba(115,115,115,255);
+}
+
+#card_price > #price {
+  font-size: 4.8rem;
+  font-weight: bold;
+  margin-top: -1px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#card_price > #price > span {
+  font-size: 2.08rem;
+  color: rgba(115,115,115,255);
+  font-weight: 400;
+}
+
+#card_price > ul{
+  font-size: 1.6rem;
+  color: rgba(115,115,115,255);
+  line-height: 1.5;
+}
+
+footer{
+  background-color: rgba(215,245,245,255);
+  margin-top: 50px;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid rgba(215,245,245,255);
+}
+
+footer > div {
+  display: flex;
+}
+
+footer > div > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 1.76rem;
+  float: left;
+  padding-right: 20px;
+  order: 2;
+  margin-top: 5px;
+}
+
+footer > div > a:hover{
+  text-decoration: underline;
+}
+
+footer > h1 {
+  width: 100%;
+}
+
+footer > div > img {
+  order: 1;
+  margin-right: 20px;
+}
+
+#imgs_avatar{
+  margin-left: 28px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#imgs_avatar > .sprite_people{
+  width: 5rem; 
+  height: 5rem;
+  margin-left: -23px;
+}
+
+#price_list{
+  list-style-image: url("Checkmark.svg");
+}
+
+#price_list > li {
+  font-size: 1.8rem;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#text_card1 {
+  font-size: 2.08rem;
+  margin-bottom: 5px;
+}
+/*Sprites ----------------------------------------*/
+/*Sprite --- 1 ------------------------------------*/
+.spriteshero-image-tablet-view, .spriteshero-image-desktop-view, .spritesuseravatar03, .spritesuseravatar04, .spritesuseravatar07, 
+.spritesuseravatar01, .spritesuseravatar02, .spritesuseravatar05, .spritesuseravatar06, .spritesuseravatar08, 
+.spritesuseravatar09, .spritestwitter-black, .spritescheckmark, .spriteshamburger-menu, .spriteslike, 
+.spritestwitter-blue, .spritestwitter
+{ max-width: 100%; background-size: 100%; background-image: url('sprite1.png'); }
+.spriteshamburger-menu { background-position: 0 98.18283%; background-size: 11600%; width: 24px; height: 20px; cursor: pointer;}
+.spriteshero-image-desktop-view { background-position: 0 73.5464%; background-size: 149.036403%; width: 100%; height: 100%;}
+.spritestwitter { background-position: 0 100%; background-size: 11600%; width: 25px; height: 25px; margin-right: 15px; margin-top: -1px;}
+.spritesuseravatar01 { background-position: 0 91.300298%; background-size: 6186.666667%; width: 5rem; height: 5rem;}
+.spritesuseravatar07 { background-position: 0 90.275708%; background-size: 6052.173913%; width: 5rem; height: 5rem;}
+.spritestwitter-blue { background-position: 0 99.44331%; background-size: 11600%; width: 25px; height: 25px; margin-left: auto;}
+.spriteslike { background-position: 0 98.812396%; background-size: 11600%; width: 25px; height: 25px;}
+.spritesuseravatar08 { background-position: 0 95.398659%; background-size: 6186.666667%; width: 5rem; height: 5rem;}
+.spritescheckmark { background-position: 0 97.624791%; background-size: 11600%; width: 25px; height: 25px;}
+.spritestwitter-black { background-position: 0 96.996106%; background-size: 11136%; width: 25px; height: 25px;}
+.spriteshero-image-tablet-view { background-position: 0 0%; background-size: 100%;}
+.spritesuseravatar03 { background-position: 0 88.226528%; background-size: 6052.173913%; }
+.spritesuseravatar04 { background-position: 0 89.251118%; background-size: 6052.173913%; }
+.spritesuseravatar02 { background-position: 0 92.324888%; background-size: 6186.666667%; }
+.spritesuseravatar05 { background-position: 0 93.349478%; background-size: 6186.666667%; }
+.spritesuseravatar06 { background-position: 0 94.374069%; background-size: 6186.666667%; }
+.spritesuseravatar09 { background-position: 0 96.423249%; background-size: 6186.666667%; }
+
+/*Sprite --- Icons ----------------------------*/
+.iconicon4, .iconicon1, .iconicon2, .iconicon3
+{ max-width: 100%; background-size: 100%; background-image: url('sprite_icons.png'); }
+.iconicon4 { background-position: 0 0%; background-size: 100%; width: 50px; height: 50px;}
+.iconicon1 { background-position: 0 34.319527%; background-size: 104%; width: 50px; height: 50px;}
+.iconicon2 { background-position: 0 67.241379%; background-size: 104%; width: 50px; height: 50px;}
+.iconicon3 { background-position: 0 100%; background-size: 110.638298%; width: 50px; height: 50px;}
+
+@media screen and (min-width: 768px){
+  .spriteshamburger-menu{
+    display: none;
+  }
+
+  h1{
+    font-size: 1.76rem;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header, #div2, article, section, #price_plan, footer {
+    padding-left: 40px;
+    padding-right: 40px;    
+  }
+
+  #nav_bar{
+    display: block;
+    margin-top: 0;
+    width: auto;
+  }
+
+  #nav_bar > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  #nav_bar > ul > li {
+    background-color: rgba(251,248,243,255);
+    padding: 0 5px;
+    font-size: 1.6rem;
+    color: #595959;
+  }
+
+  #nav_bar > ul > li:hover{
+    background-color: rgba(251,248,243,255);
+  }
+
+  #nav_bar > ul > li:nth-child(4):hover{
+    background-color: rgba(251,248,243,255);
+  }
+
+  .spriteshero-image-desktop-view {
+    background-position: 0 0%;
+    background-size: 100%;
+    width: 100%;
+  }
+
+  #div1{
+    padding-bottom: 5px;
+    height: 62vw;
+  }
+
+  #div2 > h2{
+    font-size: 4.8rem;
+  }
+
+  #div2 > p {
+    font-size: 1.6rem;
+  }
+
+  #div2_others > button {
+    width: 40%;
+  }
+
+  #div2_others{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #div2_others > a {
+    text-align: start;
+    display: block;
+    margin: auto 0 auto 10px;
+  }
+
+  section > #cards_twitter{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  
+  section{
+    padding-bottom: 30px;
+  }
+
+  .card_tweet{
+    min-width: 50vw;
+    max-width: 1000px;
+    height: max-content;
+    margin: 0 10px 0 10px;
+    padding-bottom: 0;
+  }
+
+  footer > h1 {
+    display: inline;
+    width: auto;
+  }
+
+  footer > img, a {
+    align-self: flex-end;
+  }
+
+  footer > div {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  }
+
+  #price_plan {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+
+  #card_price{
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  header, #div2, article, #price_plan, footer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 700px;
+  }
+
+  .spriteshero-image-desktop-view { background-position: 0 73.5464%; background-size: 149.036403%;}
+
+  #div1 {
+    order: 2;
+    height: auto;
+    width: 100%;
+    max-width: 450px;
+    min-width: 445px;
+    margin-left: 10px;
+    margin-right: 80px;
+  }
+
+  #div2{
+    order: 1;
+    padding-bottom: 0;
+    max-width: 600px;
+  }
+
+  #div2_others > button {
+    width: 70%;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  article > h2 {
+    width: 100%;
+  }
+
+  .card_features {
+    width: 47.5%;
+    margin: 10px;
+  }
+
+  section > #cards_twitter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x:unset;
+    justify-content: center;
+  }
+
+  section > h2 {
+    padding-left: 4%;
+  }
+
+  .card_tweet{
+    min-width: 1px;
+    max-width: 1000px;
+    width: 27.5vw;
+    height: max-content;
+    margin: 0 10px 0 10px;
+  }
+
+  #price_plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 47.5vw;
+  }
+}
